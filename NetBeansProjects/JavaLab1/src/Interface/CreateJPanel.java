@@ -315,9 +315,9 @@ public class CreateJPanel extends javax.swing.JPanel {
        product.setTelNum(Integer.parseInt(dobTxt.getText()));
         product.setEmail(descTxt.getText());
         product.setSsn(Integer.parseInt(ssnTxt.getText()));
-      product.setLicence(Integer.parseInt(liTxt.getText()));
+      product.setLicence(Integer.parseInt(linkedinTxt.getText()));
       product.setBank(Integer.parseInt(bankTxt.getText()));
-      product.setLinkedin(linkedinTxt.getText());
+      product.setLinkedin(liTxt.getText());
      product.setVehicle(Integer.parseInt(vlTxt.getText()));
      product.setHealth(healthTxt.getText());
         
